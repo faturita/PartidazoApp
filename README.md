@@ -18,3 +18,43 @@ Stack:
 * Express
 * React
 * Node
+
+# Requires
+
+* Cloud Foundry App on IBM Bluemix
+* MongoDB on IBM bluemix
+* npm i axios express body-parser foreman nodemon marked mongoose --save
+
+
+# まとめる
+La cosa é así.
+
+Una base de datos NoSQL de alta performance es más que positivo:  MongoDB  
+
+Un esquema de desarrollo con un buen framework para hacer ricas aplicaciones web, muy interactivas es buenísimo: React
+
+Una capa intermedia de Microservices super powerfull también es positivo: Express
+
+Todo en NodeJS es un golazo.
+
+Express normalmente arranca con un script donde se definen los endpoints y los diferentes servicios que están disponibles.
+
+```
+app.listen(port, function() {
+ console.log('api running');
+});
+```
+React, por otro lado, arma un servidor de node para HTTP compilando el codigo en JSX y dejandolo en la carpeta build.
+
+La idea acá es que dentro del propio proyecto de Express, hay un proyecto embebido de React (ui-react).
+
+Luego desde el server.js de Express se levanta un endpoint que justamente ejecuta el proyecto compilado de React.
+
+```
+app.use(express.static(`${__dirname}/ui-react/build`));
+```
+
+El proyecto de React se compila con '''npm run-script build'''
+y una vez compilado se puede ejecutar con
+
+ nodemon server.js
