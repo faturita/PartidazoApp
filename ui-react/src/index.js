@@ -62,17 +62,17 @@ import ImageCard from "./ImageCard";
 
 const App = ({ children }) => (
   <Container style={{ margin: 20 }}>
-    <Header as="h3">This example is powered by Semantic UI React 😊</Header>
+    <Header as="h3">Aprendizaje Automático 😊</Header>
     <List bulleted>
       <List.Item
         as="a"
-        content="💌 Official documentation"
+        content="💌 Sitio Oficial Campus"
         href="https://react.semantic-ui.com/"
         target="_blank"
       />
       <List.Item
         as="a"
-        content="💡 StackOverflow"
+        content="💡 Recursos extras"
         href="https://stackoverflow.com/questions/tagged/semantic-ui-react?sort=frequent"
         target="_blank"
       />
