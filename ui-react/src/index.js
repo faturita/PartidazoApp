@@ -62,7 +62,7 @@ import ImageCard from "./ImageCard";
 
 const App = ({ children }) => (
   <Container style={{ margin: 20 }}>
-    <Header as="h3">Aprendizaje Automático 😊</Header>
+    <Header as="h1">Aprendizaje Automático 😊</Header>
     <List bulleted>
       <List.Item
         as="a"

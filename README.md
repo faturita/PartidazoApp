@@ -58,3 +58,7 @@ El proyecto de React se compila con '''npm run-script build'''
 y una vez compilado se puede ejecutar con
 
  nodemon server.js
+
+ cd ui-react && npm run build && cd .. && node server.js
+
+ 
