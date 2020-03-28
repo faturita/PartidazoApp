@@ -23,8 +23,22 @@ Stack:
 
 * Cloud Foundry App on IBM Bluemix
 * MongoDB on IBM bluemix
-* npm i axios express body-parser foreman nodemon marked mongoose --save
 
+```
+ npm i axios express body-parser foreman nodemon marked mongoose --save
+```
+
+Luego en ui-react
+
+```
+ npm -i react-scripts --save
+```
+
+Y finalmente en el raiz instalar nodemon
+
+```
+ npm install -g nodemon
+```
 
 # まとめる
 La cosa é así.
