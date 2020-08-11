@@ -40,6 +40,36 @@ Y finalmente en el raiz instalar nodemon
  npm install -g nodemon
 ```
 
+# Mongo on Ubuntu
+
+wget -q0 - https://www.mongodb.org/static/pgp/server-4.2.asc | sudo apt-key add -
+echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.2.list
+
+sudo apt-get update
+
+sudo apt-get install -y mongodb-org
+
+Cambiar el puerto de trabajo y usar la interfaz de red del servidor.
+nano /etc/mongodb.conf
+
+sudo systemctl start mongod
+
+# Tunnel ssh
+
+```
+ ssh -L 8080:10.17.2.226:27017 charles@pampero.harvard.edu.ar
+```
+
+
+# Cliente
+
+La url de conexion te queda
+
+MONGODB_URL=mongodb://admin@127.0.0.1:8080/compose?authSource=admin&ssl=false"
+
+curl --request POST http://localhost:8081/api/comments --data "{author: rodrigo, text:Life}"
+
+
 # まとめる
 La cosa é así.
 

@@ -12,7 +12,7 @@ var app = express();
 var router = express.Router();
 //set our port to either a predetermined port number if you have set
 //it up, or 3001
-var port = process.env.API_PORT || 8080;
+var port = process.env.API_PORT || 8081;
 
 
 /**
@@ -115,8 +115,8 @@ var ca = [ fs.readFileSync(__dirname + "/servercert.crt") ];
 
 var options = {
   mongos: {
-    ssl: true,
-    sslValidate: true,
+    ssl: false,
+    sslValidate: false,
     sslCA: ca
   }
 }
