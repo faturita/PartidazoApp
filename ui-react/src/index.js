@@ -122,7 +122,7 @@ ReactDOM.render(
     url='https://www.itba.edu.ar/wp-content/uploads/docentes/maria-juliana-gambini_750x563.jpg' 
     header='Juliana Gambini' 
     meta='Desde 2009' 
-    extra='Computer Vision, Machine Learning'
+    extra='SAR, Computer Vision, Machine Learning'
     description='Recibida de Licenciada en Ciencias Matemáticas y Doctora en Ciencias de la Computación, ambos por la Facultad de Ciencias Exactas y Naturales, Universidad de Buenos Aires (UBA), Argentina.
     Actualmente es Profesora Titular en el Departamento de Ingeniería Informática, Instituto Tecnológico de Buenos Aires (ITBA), Buenos Aires, Argentina e integrante del Centro de Inteligencia Computacional en el mismo departamento.
     Los temas de investigación en los que trabaja incluyen Procesamiento de Imágenes SAR, análisis de video y reconocimiento de objetos en imágenes.' />
