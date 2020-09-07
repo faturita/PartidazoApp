@@ -6,22 +6,22 @@ const ListExampleDivided = () => (
     <List.Item>
       <List.Icon name='github' size='large' verticalAlign='middle' />
       <List.Content>
-        <List.Header as='a'>Ejemplos Aprendizaje Bayesiano</List.Header>
-        <List.Description as='a'>Updated 10 mins ago</List.Description>
+        <List.Header as='a'>Aprendizaje Automático</List.Header>
+        <List.Description as='a'>Redes bayesianas, SVM, etc</List.Description>
       </List.Content>
     </List.Item>
     <List.Item>
       <List.Icon name='github' size='large' verticalAlign='middle' />
       <List.Content>
-        <List.Header as='a'>Papers importantes</List.Header>
-        <List.Description as='a'>Updated 22 mins ago</List.Description>
+        <List.Header as='a'>Análisis y Tratamiento de Imágenes</List.Header>
+        <List.Description as='a'>Esta es la mejor materia para aprender como procsar imagenes bidimensionales</List.Description>
       </List.Content>
     </List.Item>
     <List.Item>
       <List.Icon name='github' size='large' verticalAlign='middle' />
       <List.Content>
-        <List.Header as='a'>Recursos en Git para las prácticas</List.Header>
-        <List.Description as='a'>Updated 34 mins ago</List.Description>
+        <List.Header as='a'>Sistemas de Inteligencia Artificial</List.Header>
+        <List.Description as='a'>Redes Neuronales sin humo</List.Description>
       </List.Content>
     </List.Item>
   </List>

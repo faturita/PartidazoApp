@@ -166,3 +166,5 @@ app.listen(port, function() {
 });
 
 require("cf-deployment-tracker-client").track();
+
+// systemd-run  -p WorkingDirectory=/srv/checkout -p Restart=always -p User=site -E API_PORT=8080 node server.js

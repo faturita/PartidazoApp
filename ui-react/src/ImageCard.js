@@ -22,7 +22,7 @@ class ImageCard extends Component {
         <Card.Content extra>
           <a>
             <Icon name='user' />
-            10 Friends
+            {this.props.extra}
           </a>
         </Card.Content>
       </Card>
