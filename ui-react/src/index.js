@@ -143,7 +143,7 @@ ReactDOM.render(
     header='Alan Pierri' 
     meta='Desde 2020' 
     extra='IA, SaaS, Cloud, Consulting'
-    description='Recibido como Ingeniero    Informático con orientación en Inteligencia Computacional en el Instituto Tecnológico de Buenos Aires (ITBA). Profesor de Sistemas de Inteligencia Artificial y previamente también Sistemas Multiagentes. Fuerte entusiasta e Investigador en el Centro de Inteligencia Computacional sobre AI, en areas que incluyen Algoritmos Genéticos, Random Forests, Sistemas Multiagentes, Redes Adversariales Generativas y Filtros Colaborativos. Actualmente da clases a tiempo parcial, es consultor y emprende  brindando  servicios  de   plataforma Software As a Service (SaaS).' />
+    description='Recibido como Ingeniero    Informático con orientación en Inteligencia Computacional en el Instituto Tecnológico de Buenos Aires (ITBA). Profesor de Sistemas de Inteligencia Artificial y previamente también Sistemas Multiagentes. Entusiasta e Investigador en el Centro de Inteligencia Computacional sobre AI, en areas que incluyen Algoritmos Genéticos, Random Forests, Sistemas Multiagentes, Redes Adversariales Generativas y Filtros Colaborativos. Actualmente da clases a tiempo parcial, es consultor y emprende  brindando  servicios  de   plataforma Software As a Service (SaaS).' />
         </td>
         <td> 
     <ImageCard 
