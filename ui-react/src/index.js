@@ -114,7 +114,7 @@ ReactDOM.render(
     url='https://www.itba.edu.ar/wp-content/uploads/docentes/juan-miguel-santos_750x563.jpg'
     header='Juan Miguel Santos, PI' 
     meta='Desde 2009' 
-    extra='Robótica, IA'
+    extra='Robótica, IA, BCI'
     description='Desde 2009 me desempeño como Director del Centro de Inteligencia Computacional (CIC) donde llevo adelante 3 líneas de trabajo: Desarrollo de robots, aprendizaje por refuerzo en robótica e Interfaces cerebro-computadora (BCI). En las dos primeras líneas vengo trabajando desde 1993 las cuales me han llevado al desarrollo de diversos robots, presentaciones a congresos nacionales e internacionales como así también en revistas científicas internacionales. Adicionalmente, estoy incorporando una nueva línea que es Autolocalización y mapeo (SLAM) en robots autónomos.' />
      </td>
     <td>
@@ -122,7 +122,7 @@ ReactDOM.render(
     url='https://www.itba.edu.ar/wp-content/uploads/docentes/maria-juliana-gambini_750x563.jpg' 
     header='Juliana Gambini' 
     meta='Desde 2009' 
-    extra='SAR, Computer Vision, Machine Learning'
+    extra='SAR, CV, Machine Learning'
     description='Recibida de Licenciada en Ciencias Matemáticas y Doctora en Ciencias de la Computación, ambos por la Facultad de Ciencias Exactas y Naturales, Universidad de Buenos Aires (UBA), Argentina.
     Actualmente es Profesora Titular en el Departamento de Ingeniería Informática, Instituto Tecnológico de Buenos Aires (ITBA), Buenos Aires, Argentina e integrante del Centro de Inteligencia Computacional en el mismo departamento.
     Los temas de investigación en los que trabaja incluyen Procesamiento de Imágenes SAR, análisis de video y reconocimiento de objetos en imágenes.' />
@@ -150,7 +150,7 @@ ReactDOM.render(
     url='/alan.jpeg'
     header='Esteban Buniak' 
     meta='Desde 2015' 
-    extra='Instrumentación, Diseño CAD, Torneado, Programación'
+    extra='Robótica, Instrumentación, CAD, IA'
     description='Recibido como Ingeniero    Informático con orientación en Inteligencia Computacional en el Instituto Tecnológico de Buenos Aires (ITBA). Profesor de Sistemas de Inteligencia Artificial y previamente también Sistemas Multiagentes. Fuerte entusiasta e Investigador en el Centro de Inteligencia Computacional sobre AI, en areas que incluyen Algoritmos Genéticos, Random Forests, Sistemas Multiagentes, Redes Adversariales Generativas y Filtros Colaborativos. Actualmente da clases a tiempo parcial, es consultor y emprende  brindando  servicios  de   plataforma Software As a Service (SaaS).' />
         </td>
         </tr>
